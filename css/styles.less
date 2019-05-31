@@ -1,0 +1,219 @@
+*{ touch-action: pan-y;} 
+html,body{
+    // font-size: 58.5938px;
+    background: -webkit-linear-gradient(#2392fe 50%, #86dbe2); /* Safari 5.1 - 6.0 */
+    background: -o-linear-gradient(#2392fe  50%,   #86dbe2); /* Opera 11.6 - 12.0 */
+    background: -moz-linear-gradient( #2392fe  50%,  #86dbe2); /* Firefox 3.6 - 15 */
+    background: linear-gradient( #2392fe 50%,   #86dbe2); /* 标准的语法 */
+    min-height:100%;
+    section.page{
+        >div{
+            &:nth-child(1){
+                width: 7.5rem;
+                height: 3.42rem;
+                background: url('../images/top_01.png') no-repeat;
+                background-size: cover;
+            }
+            &:nth-child(2){
+                width: 7.5rem;
+                height: 1.98rem;
+                background: url('../images/top_02.png') no-repeat;
+                background-size: cover;
+                position: relative;
+                top: -1px;
+            }
+            &:nth-child(3){
+                width: 7.5rem;
+                height: 2.5rem;
+                background: url('../images/top_03.png') no-repeat;
+                background-size: cover;
+                position: relative;
+                >ul{
+                    position: absolute;
+                    left: 0;
+                    right: 0;
+                    top: .92rem;
+                    margin: auto;
+                    width: 6.72rem;
+                    height: 1.32rem;
+                    display: flex;
+                    >li{
+                        >a{
+                            display: inline-block;
+                            width: 2.16rem;
+                            height: 1.32rem;
+                            background: url('../images/icon_01.png') no-repeat;
+                            background-size: cover;
+                        }
+                        &:nth-child(1){
+                            >a{
+                                background-position: 0% 0%;
+                            }
+                        }
+                        &:nth-child(2){
+                            margin-left: .2rem;
+                            >a{
+                                background-position: -2.16rem 0%;
+                            }
+                        }
+                    }
+                }
+                >a{
+                    position: absolute;
+                    right: .8rem;
+                    top: 1.4rem;
+                    display: inline-block;
+                    width:1.09rem;
+                    height: .96rem;
+                    background: url('../images/icon1.png') no-repeat;
+                    background-size: cover;
+                }
+            }
+            &:nth-child(4){
+                width: 7.5rem;
+                height: 5.5rem;
+                background: url('../images/top_04.png') no-repeat;
+                background-size: cover;
+                position: relative;  
+                >ul{
+                    position: absolute;
+                    left: 0;
+                    right: 0;
+                    top: .92rem;
+                    margin: auto;
+                    width: 6.72rem;
+                    height: 4.2rem;
+                    display: flex;
+                    flex-wrap:wrap;
+                    >li{
+                        >a{
+                            display: inline-block;
+                            width: 2.16rem;
+                            height: 1.32rem;
+                            background: url('../images/icon_02.png') no-repeat;
+                            background-size: cover;
+                        }
+                        &:nth-child(1){
+                            >a{
+                                background-position: 0% 0%;
+                            }
+                        }
+                        &:nth-child(2){
+                            margin: 0 .1rem;
+                            >a{
+                                background-position: -2.16rem 0%;
+                            }
+                        }
+                        &:nth-child(3){
+                            >a{
+                                background-position: -4.32rem 0%;
+                            }
+                        }
+                        &:nth-child(4){
+                            >a{
+                                background-position: -6.42rem 0%;
+                            }
+                        }
+                        &:nth-child(5){
+                            margin: 0 .1rem;
+                            >a{
+                                background-position: -8.58rem 0%;
+                            }
+                        }
+                        &:nth-child(6){
+                            >a{
+                                background-position: -10.7rem 0%;
+                            }
+                        }
+                        &:nth-child(7){
+                            >a{
+                                background-position: -13.03rem 0%;
+                            }
+                        }
+                        &:nth-child(8){
+                            margin: 0 .1rem;
+                            >a{
+                                background-position: -15.2rem 0%;
+                            }
+                        }
+                    }
+                }
+                >a{
+                    position: absolute;
+                    right: .8rem;
+                    top: 3.95rem;
+                    display: inline-block;
+                    width:1.11rem;
+                    height: 1.03rem;
+                    background: url('../images/icon2.png') no-repeat;
+                    background-size: cover;
+                }
+            }
+            &:nth-child(5){
+                width: 7.5rem;
+                height: .75rem;
+                padding: 0 .32rem;
+                box-sizing: border-box;
+                >p{
+                    width: .92rem;
+                    height: .75rem;
+                    background: url('../images/top_05.png') no-repeat;
+                    background-size: cover;
+                }
+            }
+        }
+    }
+    // 弹窗
+    section.tc{
+        display: none;
+        position: fixed;
+        top: 1.8rem;
+        left: 0;
+        right: 0;
+        margin: auto;
+        width: 4.2rem;
+        height: 4.2rem;
+        background: url('../images/tc_bg.png') no-repeat;
+        background-size: cover;
+        z-index: 300;
+        >div{
+            position: absolute;
+            left: 0;
+            right: 0;
+            margin: auto;
+            top: 1.18rem;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            color: #fff;
+            font-size: .3rem;
+            >p{
+                line-height: .5rem;
+            }
+        }
+        >a{
+            display: inline-block;
+            position: absolute;
+            bottom: .57rem;
+            left: 0;
+            right: 0;
+            margin: auto;
+            width: 2.95rem;
+            height: .8rem;
+            background: url('../images/tc_btn.png') no-repeat;
+            background-size: cover;
+        }
+    }
+        /* 遮罩层 */
+        section.mask{
+            position: absolute;
+            top: 0;
+            left: 0;
+            background-color: rgba(0,0,0,.8);
+            z-index: 100;
+        }
+}
+
+
+             
