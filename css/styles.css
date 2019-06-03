@@ -11,7 +11,7 @@ body {
   /* Firefox 3.6 - 15 */
   background: linear-gradient(#2392fe 50%, #86dbe2);
   /* 标准的语法 */
-  min-height: 100%;
+  height: 100%;
   /* 遮罩层 */
 }
 html section.page > div:nth-child(1),
@@ -105,12 +105,12 @@ body section.page > div:nth-child(4) > ul > li > a {
   display: inline-block;
   width: 2.16rem;
   height: 1.32rem;
-  background: url('../images/icon_02.png') no-repeat;
+  background-repeat: no-repeat;
   background-size: cover;
 }
 html section.page > div:nth-child(4) > ul > li:nth-child(1) > a,
 body section.page > div:nth-child(4) > ul > li:nth-child(1) > a {
-  background-position: 0% 0%;
+  background-image: url('../images/icon_02_01.png');
 }
 html section.page > div:nth-child(4) > ul > li:nth-child(2),
 body section.page > div:nth-child(4) > ul > li:nth-child(2) {
@@ -118,15 +118,15 @@ body section.page > div:nth-child(4) > ul > li:nth-child(2) {
 }
 html section.page > div:nth-child(4) > ul > li:nth-child(2) > a,
 body section.page > div:nth-child(4) > ul > li:nth-child(2) > a {
-  background-position: -2.16rem 0%;
+  background-image: url('../images/icon_02_02.png');
 }
 html section.page > div:nth-child(4) > ul > li:nth-child(3) > a,
 body section.page > div:nth-child(4) > ul > li:nth-child(3) > a {
-  background-position: -4.32rem 0%;
+  background-image: url('../images/icon_02_03.png');
 }
 html section.page > div:nth-child(4) > ul > li:nth-child(4) > a,
 body section.page > div:nth-child(4) > ul > li:nth-child(4) > a {
-  background-position: -6.48rem 0%;
+  background-image: url('../images/icon_02_04.png');
 }
 html section.page > div:nth-child(4) > ul > li:nth-child(5),
 body section.page > div:nth-child(4) > ul > li:nth-child(5) {
@@ -134,15 +134,15 @@ body section.page > div:nth-child(4) > ul > li:nth-child(5) {
 }
 html section.page > div:nth-child(4) > ul > li:nth-child(5) > a,
 body section.page > div:nth-child(4) > ul > li:nth-child(5) > a {
-  background-position: -8.64rem 0%;
+  background-image: url('../images/icon_02_05.png');
 }
 html section.page > div:nth-child(4) > ul > li:nth-child(6) > a,
 body section.page > div:nth-child(4) > ul > li:nth-child(6) > a {
-  background-position: -10.8rem 0%;
+  background-image: url('../images/icon_02_06.png');
 }
 html section.page > div:nth-child(4) > ul > li:nth-child(7) > a,
 body section.page > div:nth-child(4) > ul > li:nth-child(7) > a {
-  background-position: -12.96rem 0%;
+  background-image: url('../images/icon_02_07.png');
 }
 html section.page > div:nth-child(4) > ul > li:nth-child(8),
 body section.page > div:nth-child(4) > ul > li:nth-child(8) {
@@ -150,7 +150,7 @@ body section.page > div:nth-child(4) > ul > li:nth-child(8) {
 }
 html section.page > div:nth-child(4) > ul > li:nth-child(8) > a,
 body section.page > div:nth-child(4) > ul > li:nth-child(8) > a {
-  background-position: -15.12rem 0%;
+  background-image: url('../images/icon_02_08.png');
 }
 html section.page > div:nth-child(4) > a,
 body section.page > div:nth-child(4) > a {
