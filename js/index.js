@@ -6,7 +6,7 @@ $(function() {
 $(document).ready(function () {
     var str1 = "<p>此功能工程师，</p><p>在努力开发中！</p>"
     var str2 = "<p>活动暂未开始，</p><p>请您敬请期待！</p>"
-    var str3 = "<p>请根据提示音按5</p>"
+    var str3 = "<p>电话接通后，</p><p>家庭宽带问题请拨5</p>"
     $('.tc_01').on('click',function(){
         // 第一个弹窗
         callPopup(str1);
