@@ -186,32 +186,48 @@ body section.tc {
   left: 0;
   right: 0;
   margin: auto;
-  width: 4.2rem;
-  height: 4.2rem;
-  background: url('../images/tc_bg.png') no-repeat;
-  background-size: cover;
   z-index: 300;
+  width: 4.2rem;
+  height: 6rem;
+}
+html section.tc > a,
+body section.tc > a {
+  display: inline-block;
+  width: .55rem;
+  height: .55rem;
+  background: url('../images/close.png') no-repeat;
+  background-size: cover;
 }
 html section.tc > div,
 body section.tc > div {
   position: absolute;
+  top: 0;
+  bottom: 0;
   left: 0;
   right: 0;
   margin: auto;
-  top: 1.18rem;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
   color: #fff;
   font-size: .3rem;
+  width: 4.2rem;
+  height: 4.2rem;
+  background: url('../images/tc_bg.png') no-repeat;
+  background-size: cover;
 }
-html section.tc > div > p,
-body section.tc > div > p {
+html section.tc > div > div,
+body section.tc > div > div {
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: auto;
+  top: 1rem;
+  text-align: center;
+}
+html section.tc > div > div > p,
+body section.tc > div > div > p {
   line-height: .5rem;
 }
-html section.tc > a,
-body section.tc > a {
+html section.tc > div > a,
+body section.tc > div > a {
   display: inline-block;
   position: absolute;
   bottom: .57rem;

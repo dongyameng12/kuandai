@@ -29,7 +29,7 @@ $(document).ready(function () {
     // 关闭弹窗
     $('.close').on('click',function(){
         hideMask();
-        $(this).parent().hide()
+        $('.tc').hide()
     })
 });
 //显示遮罩层
